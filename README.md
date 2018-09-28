@@ -30,7 +30,6 @@ The tool is built using the following libraries, so you will need to have these 
 * [Matplotlib](https://matplotlib.org/) - for plotting/certain UI elements
 * [PyQt5](https://pypi.org/project/PyQt5/) - for the UI
 * [PyProj](https://pypi.org/project/pyproj/) - for projection of navigation
-* [Pickle](https://docs.python.org/2/library/pickle.html/) - to allow saving and importing navigation/split points
 
 These are also listed in the requirements.txt file.
 
