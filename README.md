@@ -1,15 +1,15 @@
-# splitSURVEY - a tool for data management 
+# splitSURVEY - an interactive tool for splitting SEG-Y data
 
-splitSURVEY is an interactive tool made to let you split subbottom profiler data (or any other SEG-Y files) at locations picked from the navigation. The tool reads an entire folder of SEG-Y data and plots the navigation from all the headers. From here the user can select points along the navigation to break the data into line files. This makes it easier to create lines that correspond with the navigation of the survey, and can also be used to trim unwanted data from the dataset or create composite lines with other surveys.
+splitSURVEY is an interactive tool that lets you split subbottom profiler data (or any other SEG-Y files) according to locations picked from the navigation. The tool reads an entire folder of SEG-Y data and plots the navigation from all the headers. From here the user can select points along the navigation to break the data into line files. For subbottom profiler data, this makes it easier to create lines that correspond with the navigation of the survey, and can also be used to trim unwanted data from the dataset or create composite lines with data from multiple surveys.
 
-The code is functional but there are likely a number of things that could be improved or tidied up - so feedback is welcomed! There are a few features that I would like to add in the future, that are not implemented yet:
+The code is functional but there are likely a number of things that could be improved or tidied up - so feedback is welcomed! There are a few features that I would like to add in the future, but have not implemented yet:
 
 - Editable preferences window for changing projection, sample rate settings, export settings, etc.
 - Different picking modes
 
 ## Using the tool
 
-To run the tool extract the zip folder, and use command prompt navigate to the root directory and run splitSURVEY.py
+To run the tool, navigate to the directory with the command prompt and run splitSURVEY.py. This will launch the main window.
 
 How to import SEGY's and split them:
 
@@ -32,7 +32,7 @@ The tool is built using the following libraries, so you will need to have these 
 * [PyProj](https://pypi.org/project/pyproj/) - for projection of navigation
 * [Pickle](https://docs.python.org/2/library/pickle.html/) - to allow saving and importing navigation/split points
 
-These are also included in the included requirements.txt file.
+These are also listed in the requirements.txt file.
 
 ## License
 
