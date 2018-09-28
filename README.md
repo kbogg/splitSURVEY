@@ -1,4 +1,4 @@
-# splitSURVEY - A tool for managing/cleaning/trimming subbottom profiler data
+# splitSURVEY - a tool for data management 
 
 splitSURVEY is an interactive tool made to let you split subbottom profiler data (or any other SEG-Y files) at locations picked from the navigation. The tool reads an entire folder of SEG-Y data and plots the navigation from all the headers. From here the user can select points along the navigation to break the data into line files. This makes it easier to create lines that correspond with the navigation of the survey, and can also be used to trim unwanted data from the dataset or create composite lines with other surveys.
 
@@ -9,7 +9,7 @@ The code is functional but there are likely a number of things that could be imp
 
 ## Using the tool
 
-To run the tool extract the zip folder and use a command prompt to run splitSURVEY.py
+To run the tool extract the zip folder, and use command prompt navigate to the root directory and run splitSURVEY.py
 
 How to import SEGY's and split them:
 
