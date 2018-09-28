@@ -1,4 +1,4 @@
-# splitSURVEY - an interactive tool for splitting SEG-Y data
+# splitSURVEY
 
 splitSURVEY is an interactive tool that lets you split subbottom profiler data (or any other SEG-Y files) according to locations picked from the navigation. The tool reads an entire folder of SEG-Y data and plots the navigation from all the headers. From here the user can select points along the navigation to break the data into line files. For subbottom profiler data, this makes it easier to create lines that correspond with the navigation of the survey, and can also be used to trim unwanted data from the dataset or create composite lines with data from multiple surveys.
 
