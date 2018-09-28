@@ -11,16 +11,16 @@ The code is functional but there are likely a number of things that could be imp
 
 To run the tool, navigate to the directory with the command prompt and run splitSURVEY.py. This will launch the main window.
 
-How to import SEGY's and split them:
+How to import SEGY's and split them into lines:
 
 1. Click 'Import' and navigate to the folder containing the SEG-Y files you want to import (can do an entire survey if you want)
 2. Click 'Output Folder' to choose the destination to output your SEG-Y files
 3. Give the survey a Cruise ID
 4. Click 'Plot' to plot the navigation from all the input SEG-Y files (this might take a while if doing a large volume of files)
 5. You can now start picking the 'split' locations by selecting points along the navigation and pressing the 'Z' key (or clicking 'Split'). The zoom and pan tools in the toolbar can be used to move around.
-6. 'N' and 'M' keys can be used to move your selection forward and backward in the navigation
-7. If you need to undo a split location you can click the 'Undo split' button. If you want to clear all of your splits you can click 'Clear splits' or press 'X'.
-8. When you are happy with the split locations you can click 'Split Survey' which will export your split SEG-Y files to the folder you specified
+6. 'N' and 'M' keys can be used to move the current selection forward and backward in the navigation.
+7. If you need to undo a split location you can click the 'Undo split' button, or press 'X'. If you want to clear all of your splits you can click 'Clear splits', or press 'C'.
+8. When you are happy with the split locations you can click 'Split Survey' which will export your split SEG-Y files to the folder you specified.
 9. 'Splits' and 'Surveys' can be saved using the export buttons. These can then be imported later to save you from having to reload all the SEG-Y files if you get interrupted. Splits are saved automatically upon export.
 
 ### Libraries
